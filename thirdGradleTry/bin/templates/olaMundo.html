@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1 th:text="'Ola, ' + ${nome} + '!'" />
+    <p>adicione um valor ao parametro nome na URL para que apareca seu nome ao inves de Mundo. Exemplo: localhost:8080/olaMundo?nome=Jorge</p>
+    <p>Em palavras mais tecnicas: realize um GET passando 'nome' como parametro.</p>
+</body>
+</html>
